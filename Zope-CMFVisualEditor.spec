@@ -4,7 +4,7 @@ Summary:	A Zope product, a skin for Plone using the DHTML Editing Control
 Summary(pl):	Dodatek do Zope umo¿liwiaj±cy wizualn± edycjê DHTML dla Plone
 Name:		Zope-%{zope_subname}
 Version:	0.2
-Release:	6
+Release:	7
 License:	GPL v2+
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
@@ -35,7 +35,7 @@ DHTML dla Plone.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/%{name}
 
-cp -af {Extensions,i18n,skins,*.py} $RPM_BUILD_ROOT%{_datadir}/%{name}
+cp -af {Extensions,i18n,skins,*.py,version.txt} $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 %py_comp $RPM_BUILD_ROOT%{_datadir}/%{name}
 %py_ocomp $RPM_BUILD_ROOT%{_datadir}/%{name}
@@ -61,5 +61,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc README.txt
+%doc README.txt LICENSE.*
 %{_datadir}/%{name}
