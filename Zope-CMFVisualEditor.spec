@@ -3,7 +3,7 @@ Summary:	A Zope product, a skin for Plone using the DHTML Editing Control
 Summary(pl):	Dodatek do Zope umo¿liwiaj±cy wizualn± edycjê DHTML dla Plone
 Name:		Zope-%{zope_subname}
 Version:	0.2
-Release:	7
+Release:	8
 License:	GPL v2+
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
