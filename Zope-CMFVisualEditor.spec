@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define		zope_subname	CMFVisualEditor
 Summary:	A Zope product, a skin for Plone using the DHTML Editing Control
 Summary(pl):	Dodatek do Zope umo¿liwiaj±cy wizualn± edycjê DHTML dla Plone
