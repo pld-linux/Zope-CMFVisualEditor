@@ -61,5 +61,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc README.txt LICENSE.*
+%doc README.txt
 %{_datadir}/%{name}
