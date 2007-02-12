@@ -1,6 +1,6 @@
 %define		zope_subname	CMFVisualEditor
 Summary:	A Zope product, a skin for Plone using the DHTML Editing Control
-Summary(pl):	Dodatek do Zope umo¿liwiaj±cy wizualn± edycjê DHTML dla Plone
+Summary(pl.UTF-8):   Dodatek do Zope umoÅ¼liwiajÄ…cy wizualnÄ… edycjÄ™ DHTML dla Plone
 Name:		Zope-%{zope_subname}
 Version:	0.2
 Release:	9
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 CMFVisualEditor is a Zope product, a skin for Plone that makes use of
 the DHTML Editing Control.
 
-%description -l pl
-CMFVisualEditor jest dodatkiem do Zope umo¿liwiaj±cym wizualn± edycjê
+%description -l pl.UTF-8
+CMFVisualEditor jest dodatkiem do Zope umoÅ¼liwiajÄ…cym wizualnÄ… edycjÄ™
 DHTML dla Plone.
 
 %prep
