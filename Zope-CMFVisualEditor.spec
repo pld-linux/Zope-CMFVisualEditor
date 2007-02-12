@@ -1,6 +1,6 @@
 %define		zope_subname	CMFVisualEditor
 Summary:	A Zope product, a skin for Plone using the DHTML Editing Control
-Summary(pl.UTF-8):   Dodatek do Zope umożliwiający wizualną edycję DHTML dla Plone
+Summary(pl.UTF-8):	Dodatek do Zope umożliwiający wizualną edycję DHTML dla Plone
 Name:		Zope-%{zope_subname}
 Version:	0.2
 Release:	9
